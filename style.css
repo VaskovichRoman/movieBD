@@ -1,0 +1,192 @@
+*, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #c8c8c8;
+}
+
+.myHead {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 100px;
+    background-color: #4a4948;
+}
+
+.siteName {
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: azure;
+    font-size: 24px;
+    font-family: Verdana , Monaco, monospace;
+    margin: auto 70% auto 0;
+}
+
+.myIcon {
+    display: flex;
+    justify-content: left;
+    margin: auto 10px auto 100px;
+}
+
+.myAcc {
+    display: flex;
+    justify-content: right;
+    font-family: Comic Sans MS, Monaco, monospace;
+    background: #4a4948;
+    border-radius: 1px;
+    color: #4a4948;
+    height: 50%;
+    margin: auto;
+}
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 110px;
+    font-size: 24px;
+    font-family: Verdana, Monaco, monospace;
+    color: #7f7f7f;
+}
+.contentBlock {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*margin: 40px auto;*/
+    /*height: 100%;*/
+}
+
+.backgr {
+    display: flex;
+    background: #c8c8c8;
+    width: 100%;
+    /*height: 800px;*/
+}
+.content {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-content: flex-start;*/
+    /*display: flex;*/
+    /*display: inline-flex;*/
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*align-content: flex-start;*/
+    /*height: 100px;*/
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    background: #c8c8c8;
+
+}
+
+.content img {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+    transition: 0.3s;
+}
+
+.content img:hover {
+    box-shadow: 0 0 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*.item1 {*/
+/*    width: 200px;*/
+/*    height: 310px;*/
+/*    margin: 5px 5px 10px 5px;*/
+/*    background-size: contain;*/
+/*    border-radius: 2px;*/
+
+/*    !*background: url("http://image.tmdb.org/t/p/w342/5JU9ytZJyR3zmClGmVm9q4Geqbd.jpg") 100% 100% no-repeat; !* Добавляем фон *!*!*/
+
+/*}*/
+
+.hidden {
+    display: none !important;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #453653;
+
+}
+
+.backButton {
+    margin: 10px auto auto 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    /*height: max-content;*/
+    /*background: #3c3843;*/
+    margin: auto;
+
+}
+.poster {
+    display: flex;
+    flex-flow: row wrap;
+    width: max-content;
+    height: max-content;
+    /*background: #191a64;*/
+    margin: auto;
+}
+
+.description {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    height: max-content;
+    //background: #641b3c;
+    margin: auto;
+}
+
+.name {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 24px;
+    font-family: Courier, Monaco, monospace;
+
+}
+
+.back_link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #737c7c;
+    font-size: 24px;
+    font-family: Verdana, Monaco, monospace;
+}
+.next_film {
+    cursor: pointer;
+    text-decoration: none;
+    color: #737c7c;
+    font-size: 24px;
+    font-family: Verdana, Monaco, monospace;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    height:70px;
+    width:170px;
+    text-align:center;
+}
+
+
